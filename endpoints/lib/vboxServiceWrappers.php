@@ -111,7 +111,7 @@ abstract class VBox_Collection implements ArrayAccess, Iterator, Countable
     }
 
     /** ArrayAccess Functions **/
-    public function offsetSet($offset, $value): void
+    public function offsetSet($offset, $value)
     {
         if ($value instanceof $this->_interfaceName)
         {
@@ -130,50 +130,49 @@ abstract class VBox_Collection implements ArrayAccess, Iterator, Countable
         }
     }
 
-    public function offsetExists($offset): bool
+    public function offsetExists($offset)
     {
         return isset($this->_objects[$offset]);
     }
 
-    public function offsetUnset($offset): void
+    public function offsetUnset($offset)
     {
         unset($this->_objects[$offset]);
     }
 
-    public function offsetGet($offset): mixed
+    public function offsetGet($offset)
     {
         return isset($this->_objects[$offset]) ? $this->_objects[$offset] : null;
     }
 
     /** Iterator Functions **/
-    public function rewind(): void
+    public function rewind()
     {
         reset($this->_objects);
     }
 
-    public function current(): mixed
+    public function current()
     {
         return current($this->_objects);
     }
 
-    public function key(): mixed
+    public function key()
     {
         return key($this->_objects);
     }
 
-	#[\ReturnTypeWillChange]
     public function next()
     {
         return next($this->_objects);
     }
 
-    public function valid(): bool
+    public function valid()
     {
         return ($this->current() !== false);
     }
 
     /** Countable Functions **/
-    public function count(): int
+    public function count()
     {
         return count($this->_objects);
     }
