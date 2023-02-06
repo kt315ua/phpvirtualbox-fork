@@ -1,4 +1,12 @@
 -------------------------------------
+    7.0-0 BETA
+-------------------------------------
+Upgrade to Virtualbox 7.0 - BartekSz95
+Support PHP 8.2 - BartekSz95, ms49434
+Fix fileTree listing and extension filtering - derekschrock
+Fix api.php exceptions handling bug - miceZipper
+
+-------------------------------------
     6.0-0   
 -------------------------------------
 Upgrade to Virtualbox 6.0
