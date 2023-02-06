@@ -250,13 +250,13 @@ function vboxGuestOSTypeIcon(osTypeId) {
 		case "Windows81":       strIcon = "os_win81.png"; break;
 		case "Windows81_64":    strIcon = "os_win81_64.png"; break;
 		case "Windows10":       strIcon = "os_win10.png"; break;
-		case "Windows10_64":    strIcon = "os_win10.png"; break;
+		case "Windows10_64":    strIcon = "os_win10_64.png"; break;
 		case "Windows11_64":    strIcon = "os_win11_64.png"; break;
 		case "WindowsNT":       strIcon = "os_win_other.png"; break;
 		case "WindowsNT_64":    strIcon = "os_win_other_64.png"; break; 
 		case "Windows2012_64":	strIcon = "os_win2k12_64.png"; break;
 		case "Windows2016_64":	strIcon = "os_win2k16_64.png"; break;
-                case "Windows2019_64":	strIcon = "os_win2k19_64.png"; break;
+        case "Windows2019_64":	strIcon = "os_win2k19_64.png"; break;
 		case "OS2Warp3":        strIcon = "os_os2warp3.png"; break;
 		case "OS2Warp4":        strIcon = "os_os2warp4.png"; break;
 		case "OS2Warp45":       strIcon = "os_os2warp45.png"; break;
