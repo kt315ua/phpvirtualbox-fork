@@ -1,5 +1,16 @@
 # About
 
+This is a fork of original project: 
+https://github.com/phpvirtualbox/phpvirtualbox
+
+### Note ###
+Use this fork on your own risk
+
+------------------------------------------------------------------------------
+## ORIGINAL README CONTENT ##
+
+# About
+
 phpVirtualBox is from 2017 maintained by Smart Guide Pty Ltd (tudor at smartguide dot com dot au)
 
 with support from various contributors (see https://github.com/phpvirtualbox/phpvirtualbox/graphs/contributors)
