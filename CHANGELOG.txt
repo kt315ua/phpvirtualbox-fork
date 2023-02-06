@@ -1,5 +1,5 @@
 -------------------------------------
-    7.0-0 BETA
+    7.0-0 RC1
 -------------------------------------
 Support for VirtualBox 7.0 and PHP8.2 - BartekSz95
 Fixed clone option and encryption/decryption - BartekSz95
