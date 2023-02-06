@@ -1,4 +1,11 @@
 -------------------------------------
+    6.1-0
+-------------------------------------
+Fix fileTree listing and extension filtering - derekschrock
+Fix api.php exceptions handling bug - miceZipper
+
+
+-------------------------------------
     6.0-0   
 -------------------------------------
 Upgrade to Virtualbox 6.0

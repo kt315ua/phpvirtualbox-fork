@@ -1,13 +1,13 @@
 # About
 
-This is a for of original project: 
+This is a fork of original project: 
 https://github.com/phpvirtualbox/phpvirtualbox
 
 ### Note ###
 Use this fork on your own risk
 
 ------------------------------------------------------------------------------
-## ORIGIANL README CONTENT ##
+## ORIGINAL README CONTENT ##
 
 # About
 
